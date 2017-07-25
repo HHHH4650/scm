@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!-- 通过别名简化对类的使用   -->
+	
+	<typeAliases>
+		<!-- <typeAlias type="com.entity.Dept" alias="Dept" />  -->
+		 <package name="com.entity"/>
+	</typeAliases>
+
+	<!-- <mappers>
+		<mapper resource="com/entity/DeptMapper.xml" />
+	</mappers> -->
+</configuration>
+
